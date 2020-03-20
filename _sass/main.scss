@@ -1,6 +1,11 @@
 @import "footer";
 @import "header";
-
+@import "home";
+@import "proyects";
+@import "contact";
+@import "proyect";
+@import "list-proyects";
+@import "vars";
 body {
-  background-color: red;
+  background-color: $main-body;
 }

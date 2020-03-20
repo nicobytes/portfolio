@@ -1,0 +1,60 @@
+@import "../_sass/vars.scss";
+.conteiner-detail {
+  padding-top: 55px;
+  margin: 80px;
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .proyects-conteiner {
+    display: grid;
+    grid-template-columns: repeat(4, 15%);
+  }
+}
+
+.image {
+  margin: 30px;
+}
+
+.conteiner_image {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 300px 300px;
+  grid-template-rows: 300px 300px;
+  grid-gap: 10px;
+  margin-bottom: 40px;
+  .conteiner-image-item {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .item1 {
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.tecnologies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(0px, 100px));
+  justify-content: center;
+  grid-gap: 50px;
+  margin: 20px 90px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+ion-icon.icon {
+  font-size: 40px;
+  color: $main-blue;
+}

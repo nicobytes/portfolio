@@ -1,0 +1,58 @@
+@import "../_sass/vars.scss";
+
+.conteiner {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  z-index: 1;
+
+  .conteiner__left {
+    //background-color: red;
+    height: 100vh;
+
+    .conteiner__home {
+      margin: 100px;
+      margin-top: 200px;
+      width: 75%;
+      //background-color: pink;
+
+      .conteiner__home--text {
+        //background-color: aqua;
+        font-size: 25px;
+        width: 80%;
+
+        .social {
+          display: grid;
+          grid-template-columns: repeat(6, 10%);;
+        }
+      }
+    }
+  }
+  
+  .conteiner__rigth {
+    background-color: $main-blue;
+    height: 100vh;
+  }
+}
+
+.photo {
+  background-color: gray;
+  height: 85vh;
+  width: 30%;
+  position: absolute;
+  top: 70px;
+  right: 165px;
+  z-index: 0;
+  img {
+    margin: 0px;
+    width: 100%;
+    vertical-align: top;
+    height: auto;
+  }
+}
+
+p {
+  text-align: justify;
+  font-size: 21px;
+}
+
+

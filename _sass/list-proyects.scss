@@ -1,0 +1,8 @@
+.list__projects {
+  padding-top: 10px;
+  margin: 60px;
+  .conteiner_list {
+    display: grid;
+    grid-template-columns: 10% 90%;
+  }
+}
